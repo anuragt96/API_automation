@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="C:/Users/HP/IdeaProjects/Project1_API_auto/src/test/java/org/example/practice">-->
+    <listeners>
+        <listener class-name="org.example.practice.CustomListener"></listener>
+    </listeners>
+    <test name="Test03">
+        <groups>
+            <run>
+                <include name="Sanity" />
+            </run>
+        </groups>
+    <classes>
+            <class name="org.example.practice.Test03"/>
+    </classes>
+    </test>
+</suite>
